@@ -42,8 +42,9 @@ h1{
 
 .user_info{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 12px;
 }
 
 .avatar{
@@ -51,4 +52,79 @@ h1{
     height: 50px;
     border-radius: 50%;
     background-color: bisque;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    color: aqua;
+}
+
+p{
+    color: #999;
+    margin-top: -1rem;
+}
+
+.todos{
+    /* background-color: aquamarine; */
+    width: 340px;
+    height: 300px;
+    margin:0 auto; 
+    /* overflow: scroll; */
+    overflow-y: scroll;
+    /* margin-left: 12px; */
+}
+
+.item_box{
+    /* width: 330px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    margin: 12px;
+    border: 1px solid aquamarine;
+}
+
+.item{
+    color: wheat;
+    font-size: 17px;
+}
+
+.icons{
+    display: flex;
+    gap: 10px;
+}
+
+.plus{
+    background-color: aqua;
+    color: wheat;
+    padding: 1px;
+    border-radius: 50%;
+}
+
+.star{
+    background-color: teal;
+    color: wheat;
+    padding: 1px;
+    border-radius: 50%;
+}
+
+.input{
+    margin-bottom: 17px;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222;
+    margin: 23px;
+    padding: 10px;
+    gap: 10px;
+}
+
+input{
+    border: none;
+    outline: none;
+    background-color: #222;
+    color: #999;
+    width: 100%;
 }
