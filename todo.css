@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* container style */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+    flex-direction: column;
+}
+
+h1{
+    color: #999;
+    font-family: sans-serif;
+}
+
+.line{
+    width: 120px;
+    height: 2px;
+    background-color: aqua;
+    margin-top: -16px;
+}
+
+.inner{
+    color: aqua;
+}
